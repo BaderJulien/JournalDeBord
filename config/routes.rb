@@ -1,13 +1,13 @@
 JournalDeBord::Application.routes.draw do
+  resources :notes
+
+
+  resources :projets
+
+
   get "pages/home"
 
   get "pages/contact"
-
-  resources :microposts
-
-
-  resources :users
-
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

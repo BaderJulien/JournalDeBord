@@ -1,54 +1,118 @@
 <style type="text/css">
 
+body
+{
+	height : auto;
+}
 
-.separation{
-	clear: both;
-	position: relative;
-	margin-top :10px;
-	margin-left: 250px;
-	height: 200px;
+.separation
+{
+	float : left;
+	position : relative;
+	/*margin-top : 50px;*/
+	height : 200px;
 	width : 5px;
-	background: black;
+	background : black;
 	}
 
-#global {
-left: 50%; 
-top: 50%;
-margin: auto;
-width: 920px;
-border:0px;
+#global
+{
+	left : 50%; 
+	top : 50%;
+	margin : auto;
+	width : 920px;
+	border : 0px;
 }
 
 
-div.bottombar{
-height: 8px;
-background: #1a1109;
-left: 50%; 
-top: 50%;
-margin: auto;
-width: 920px;
+div.bottombar
+{
+	height : 8px;
+	background : #1a1109;
+	left : 50%; 
+	top : 50%;
+	margin : auto;
+	width : 920px;
 
 }
-.Global{ 
-left: 50%; 
-top: 50%;
-margin: auto;
-width: 920px;
-background-color:#F5F9F8;
-border:0px;
+.Global
+{ 
+	/*left : 50%;
+	top : 50%;*/
+	margin : auto;
+	width : 920px;
+	background-color : #F5F9F8;
+	border : 0px;
 }
-.Texte{ 
-left: 50%; 
-top: 50%;
-margin: auto;
-width: 920px;
-background-image: url("bamb.png");
-background-repeat: repeat;
+.Texte
+{ 
+	left : 50%; 
+	top : 50%;
+	margin : auto;
+	width : 920px;
+	background-image : url("bamb.png");
+	background-repeat : repeat;
 }
 
+div.Accueil1
+{
+	position : relative;
+	margin-top : 20px;
+	width : 47%;
+	float : left;
+	padding : 10px;
+}
 
+div.Bienvenu
+{
+	
+	text-align : center;
+	position : relative;
+	margin-top : 20px;
+	width : 100%;
+	float : left;
+	padding : 10px;
+}
 
+div.Connexion1
+{	
+	/*
+	margin-bottom : 50px;
+	margin-top:50px;
+	padding : 10px;
+	*/
+	text-align : center;
+	position : relative;
+	width : 47%;
+	float : left;
+	
+	/*border-style : solid;
+	border-width : 1px;*/
+}
 
+div.Conteneur
+{
+	position : relative;
+	width : 99,9%;
+	height : 100%;
+}
+
+div.ok
+{
+	position : relative;
+	width : 100%;
+	height : 150px;
+}
+
+div.Player
+{
+	clear : left;
+	position : relative;
+	padding : 50px;
+	text-align : center;
+	margin-left : auto; 
+	margin-right : auto;
+}
 
 ul.semiopaquemenu{ /* menu principale */
 font: bold 14px Georgia ;

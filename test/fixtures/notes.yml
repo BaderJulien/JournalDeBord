@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  id: 
+  date: 2013-12-17
+  categorie: 
+  duree: 
+  difficulte: 
+  texte: MyText
+  titre: MyString
+  commentaire: MyText
+
+two:
+  id: 
+  date: 2013-12-17
+  categorie: 
+  duree: 
+  difficulte: 
+  texte: MyText
+  titre: MyString
+  commentaire: MyText

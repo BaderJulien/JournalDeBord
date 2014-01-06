@@ -12,8 +12,8 @@
 		</div>
 		
 		<ul class="semiopaquemenu">
-			<li><a href="index.html">Acceuil</a></li>
-			<li><a href="">Saisir Note</a></li>
+			<li><a href="">Voir Carnet</a></li>
+			<li><%= link_to "Saisir Note",new_note_path%></li>
 			<li><a href="">Voir Carnet</a></li>
 			<li><a href="">Voir Graphe</a></li>
 			<li><a href="monCompte.html">Mon compte</a></li>
@@ -30,7 +30,7 @@
 						<input type="password" name="password" placeholder="password"/>
 						<input type="submit" name="connexion" value="Se connecter"/>
 						</br>
-						<%= link_to "Nouvel Utilisateur", users_path%>
+						<%= link_to "Nouvel Utilisateur", new_user_path%>
 				</div>
 				<div style="clear:both;"></div>
 			</div>

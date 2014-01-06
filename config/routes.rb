@@ -5,7 +5,7 @@ JournalDeBord::Application.routes.draw do
   get "home/index"
 
   resources :notes
-
+  match 'home' => 'homet#index', :as => :home
 
   resources :projets
 
